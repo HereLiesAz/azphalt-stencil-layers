@@ -1,0 +1,13 @@
+{
+  "name": "azphalt-filter-stencil-layers",
+  "version": "1.0.0",
+  "description": "Azphalt Filter: Stencil Layers",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "@azphalt/azp": "^0.1.0",
+    "@azphalt/azdk": "^0.1.0"
+  }
+}
