@@ -1,0 +1,27 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.stencil-layers",
+  "name": "Stencil Layers",
+  "version": "1.0.0",
+  "kind": "code",
+  "license": "MIT",
+  "compat": ">=0.1",
+  "description": "Reduce the active layer to 2–4 flat luminance bands — the core of a cut stencil.",
+  "entry": "code/main.js",
+  "runtime": "js",
+  "capabilities": [
+    "bitmap",
+    "params",
+    "canvas"
+  ],
+  "contributes": {
+    "filters": [
+      {
+        "id": "com.hereliesaz.azphalt.stencil-layers",
+        "name": "Stencil Layers",
+        "entry": "separate",
+        "ui": "ui/panel.json"
+      }
+    ]
+  }
+}
