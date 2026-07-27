@@ -4,7 +4,7 @@
   "name": "Stencil Layers",
   "version": "1.0.0",
   "kind": "code",
-  "license": "LicenseRef-Proprietary",
+  "license": "GPL-3.0-or-later",
   "compat": ">=0.1",
   "description": "Reduce the active layer to 2–4 flat luminance bands — the core of a cut stencil.",
   "author": "HereLiesAz",
